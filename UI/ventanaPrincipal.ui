@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>968</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana Principal</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>311</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 0, 0);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Pictures/IMAGENES/LOGO2.jpg</pixmap>
+    </property>
+    <property name="indent">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>0</y>
+      <width>881</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnVender">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>VENDER</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/GENERAR VENTA.png</normaloff>../../../Videos/UI/IMAGENES/GENERAR VENTA.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnProductos">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>190</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>PRODUCTOS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/CONSULTAR.png</normaloff>../../../Videos/UI/IMAGENES/CONSULTAR.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnClientes">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>CLIENTES</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/USUARIOS.png</normaloff>../../../Videos/UI/IMAGENES/USUARIOS.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAlmacenes">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>ALMACENES</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/MODIFICAR.png</normaloff>../../../Videos/UI/IMAGENES/MODIFICAR.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnProveedores">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>310</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>PROVEEDORES</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/USUARIOS.png</normaloff>../../../Videos/UI/IMAGENES/USUARIOS.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSalidas">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>SALIDAS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/CARRITO.png</normaloff>../../../Videos/UI/IMAGENES/CARRITO.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnVentas">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>DETALLE VENTAS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/DETALLE-FACTURA-VENTA.png</normaloff>../../../Videos/UI/IMAGENES/DETALLE-FACTURA-VENTA.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDetalleVentas">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>430</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>VENTAS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/GENERAR VENTA.png</normaloff>../../../Videos/UI/IMAGENES/GENERAR VENTA.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRegistrar_11">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>50</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(165, 165, 165);</string>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Videos/UI/IMAGENES/SALIR.png</normaloff>../../../Videos/UI/IMAGENES/SALIR.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
